@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Practice{
+    public static void main(String args[]){
+        Scanner i= new Scanner(System.in);
+        System.out.print("Enter number of looping : ");
+        int a = i.nextInt();
+        int j=0;
+        while(j<=a){
+            System.out.println(j);
+            j=j+1;
+        }
+        
+        
+        
+    }
+}
